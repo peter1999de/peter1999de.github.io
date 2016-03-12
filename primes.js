@@ -8,9 +8,13 @@ input.value=47;
 	var go = document.getElementById("go");
 
 	function findPrimes(max) {
+		if (max < 2) {
+			return [];
+		}
+
 		var primes = [2];
 		var n = 3;
-		while(n<max) {
+		while(n<=max) {
 			var isPrime = true;
 			primes.forEach(function(prime) {
 				if (n % prime === 0) {
