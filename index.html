@@ -5,6 +5,20 @@
 <body>
   <div id="formular">
     <input id="in" type="number"/>
+    <fieldset>
+      <legend>Select an action</legend>
+      <ul class="radio">
+        <li>
+          <input  type="radio"  name="action" id="action_primes" value="primes">
+          <label for="action_primes">print primes</label>
+        </li>
+        <li>
+          <input  type="radio"  name="action" id="action_factors" value="factors">
+          <label for="action_factors">print prime factors</label>
+        </li>
+      </ul>
+    </fieldset>
+
     <button id="go">Go</button>
   </div>
   <div id="out"></div>

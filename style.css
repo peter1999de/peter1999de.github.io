@@ -10,10 +10,19 @@ span {
   font-weight: bold;
 }
 
+h2 {
+  text-align: center;
+}
+
 body {
   width: 800px;
   margin: 0 auto;
 }
+
+ul.radio {
+  list-style: none;
+}
+
 #formular{
   width: 290;
   margin: 50 auto;
